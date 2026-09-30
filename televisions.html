@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appliance Energy Consumption</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav>
+                <!-- Power Logo - return the user to the Home page when the logo is clicked -->
+                <a href="index.html" class="logo_link">
+                    <img src="./assets/PowerIcon.png" alt="Power Logo">
+                    <span class="name">Appliance Energy</span>
+                </a>
+                <!-- Main navigation -->
+                <ul>
+                    <li><a href="index.html" class="nav-home">Home</a></li>
+                    <li><a href="televisions.html" class="nav-televisions" aria-current="page">Televisions</a></li>
+                    <li><a href="about.html" class="nav-about">About us</a></li>
+                </ul>
+                <button class="toggle-menu" aria-label="Responsive Navigation Menu">☰</button>
+        </nav>
+    </header>
+<!------------------------------------------------------------------------------------------------------------------->
+    <main class="televisions-page">
+        <div class="hero">
+            <div class="hero-text">
+                <h1 class="hero-title">Televisions</h1>
+                <p class="sub-text"> Televisions are among the most common appliances in Australian homes, and they are 
+                    often left on for hours every day. This page looks at how much electricity different types of television 
+                    typically use.
+                </p>
+            </div> 
+        </div>
+
+        <h2 class="head2">Why Televisions Matter</h2>
+        <p class="sub-text">A single television uses less power than an air conditioner or a water heater, but it runs for 
+            long periods, often alongside a set top box, a games console or a sound bar. Over a full year, this adds up to 
+            a noticeable part of a household's electricity use.
+        </p>
+
+        <div class="card-grid">
+            <article class="card-1">
+                <h3>Long viewing hours</h3>
+                <p><em>Televisions are often on for several hours every day, so even a modest wattage adds up over a full year.</em></p>
+            </article>
+
+            <article class="card-2">
+                <h3>Brightness</h3>
+                <p><em>Higher brightness levels consume more electricity. Display settings used in stores are usually brighter than what is necessary for a comfortable home environment.</em></p>
+            </article>
+
+            <article class="card-3">
+                <h3>Screen size</h3>
+                <p><em>Screen sizes keep growing, and a larger panel generally draws more power than a smaller one.</em></p>
+            </article>
+
+            <article class="card-4">
+                <h3>Extra devices</h3>
+                <p><em>Set top boxes, games consoles and sound bars are often left running alongside the television.</em></p>
+            </article>
+
+            <article class="card-5">
+                <h3>Panel technology</h3>
+                <p><em>LED, OLED, and LCD(LED) displays can have different energy consumption patterns, even when they are the same size.</em></p>
+            </article>
+
+            <article class="card-6">
+                <h3>Buying decisions</h3>
+                <p><em>Comparing star ratings before you buy can lower running costs for the whole life of the television.</em></p>
+            </article>
+        </div>
+
+        <h2 class="head2">Typical Power Use by Television Type</h2>
+        <p class="small-text">The table below compares some common television types. Yearly use assumes 4 hours of viewing per day.</p>
+
+        <!-- The data table -->
+        <div class="table-scroll">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Panel type</th>
+                        <th>Screen Size</th>
+                        <th>Typical power (W)</th>
+                        <th>Yearly use (kWh)</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>LCD (LED)</td>
+                        <td>58 inch</td>
+                        <td>50</td>
+                        <td>322.0</td>
+                    </tr>
+
+                    <tr>
+                        <td>LCD (LED)</td>
+                        <td>55 inch</td>
+                        <td>80</td>
+                        <td>116.8</td>
+                    </tr>
+
+                    <tr>
+                        <td>OLED</td>
+                        <td>55 inch</td>
+                        <td>100</td>
+                        <td>146.0</td>
+                    </tr>
+
+                    <tr>
+                        <td>OLED</td>
+                        <td>65 inch</td>
+                        <td>120</td>
+                        <td>175.2</td>
+                    </tr>
+
+                    <tr>
+                        <td>LCD</td>
+                        <td>50 inch</td>
+                        <td>150</td>
+                        <td>365.0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p class="sub-text">Try these numbers in the calculator on the home page to see the estimated cost for your own tariff.</p>
+    </main>
+
+<!------------------------------------------------------------------------------------------------------------------->
+    <footer class="footer-content">
+        <div class="container footer-inner">
+            <div>&copy; <span id="footer-year">2026 -</span> COS30045 Data Visualisation</div>
+            <div>Tong My Thanh Ngan</div>
+        </div>
+    </footer>
+    
+</body>
+</html>
