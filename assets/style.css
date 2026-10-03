@@ -25,7 +25,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 0;
-  border-bottom: 4px solid var(--amber-dark);
+  border-bottom: 4px solid var(--brown);
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
   padding-left: calc(50vw - 50%);
@@ -82,6 +82,91 @@ nav ul a[aria-current="page"] {
 }
 
 /* ----------------------------------------------------------------------------------- */
+/* Hero header (amber band: nav + eyebrow + title + intro + pill links)
+   Use by adding class "hero-header" to <header class="site-header"> */
+html {
+  scroll-behavior: smooth;
+}
+
+.hero-header {
+  margin-top: -1.2rem;                     
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  padding: 0 calc(50vw - 50%) 2.25rem;
+  background: var(--page);
+  color: var(--dark-coffee);
+  border-bottom: 4px solid var(--brown);
+}
+
+.hero-header nav {
+  margin: 0;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(59, 50, 38, 0.25);
+}
+
+.hero-header nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.hero-header nav ul a:hover {
+  background-color: rgba(255, 255, 255, 0.45);
+}
+
+.hero-header nav ul a[aria-current="page"] {
+  background: var(--dark-coffee);
+  color: var(--cream);
+}
+
+.hero-header .wrap {
+  max-width: 65rem;
+  margin: 0 auto;
+  padding: 2.25rem 0 0;
+}
+
+.hero-header .eyebrow {
+  margin: 0;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.85;
+}
+
+.hero-header h1 {
+  font-size: clamp(2rem, 6vw, 3.2rem);
+  margin: 0.2em 0 0.3em;
+  line-height: 1.1;
+  color: var(--dark-coffee);
+}
+
+.hero-header .lead {
+  font-size: 1.15rem;
+  max-width: 60rem;
+  margin: 0 0 1.5rem;
+  line-height: 1.6;
+}
+
+.hero-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.hero-links a {
+  color: var(--dark-coffee);
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.35);
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  transition: background-color 0.2s;
+}
+
+.hero-links a:hover {
+  background: rgba(255, 255, 255, 0.65);
+}
+
+/* ----------------------------------------------------------------------------------- */
 body {
     color: var(--dark-coffee);
     background: var(--page);
@@ -102,25 +187,6 @@ body {
     color: var(--dark-brown)
 }
 
-/* Hero in the Home page */
-.hero {
-    background: var(--page);
-    border-bottom: 1px solid var(--amber-dark);
-    padding: 2.5rem 0rem;
-}
-
-.hero-text h1 {
-    font-size: 2.75rem;       
-    line-height: 1.25;
-    margin-bottom: 1.2rem;   
-}
-
-.hero-text p {
-    font-size: 1.4rem;
-    color: var(--dark-coffee);
-    max-width: 65rem;    
-    text-align: justify;
-}
 /* ----------------------------------------------------------------------------------- */
 .calc {
   display: grid;
@@ -381,36 +447,37 @@ body {
 
 /* ----------------------------------------------------------------------------------- */
 @media (max-width: 52rem) {
-  .site-header nav {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+.site-header nav {
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
-  .logo_link {
-    margin: 0 auto;
-  }
+.logo_link {
+  margin: 0 auto;
+}
 
-  nav ul {
-    flex: 1 1 100%;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-  }
+nav ul {
+  flex: 1 1 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+/* ----------------------------------------------------------------------------------- */
 
-  .calc {
-    grid-template-columns: minmax(0, 1fr);
-  }
+.calc {
+  grid-template-columns: minmax(0, 1fr);
+}
 
-  .footer-inner {
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-  }
+.footer-inner {
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
 
-  .card-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
+.card-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
 }
 
 @media (max-width: 36rem) {
