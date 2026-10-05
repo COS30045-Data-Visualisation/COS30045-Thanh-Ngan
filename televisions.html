@@ -137,9 +137,64 @@
                 </table>
                 <p class="note">*30 c/kWh is an assumed round-number tariff chosen only to illustrate the gap; it is not part of the dataset. Check your own bill for your rate.</p>
             </div>
-        </section>"
+        </section>
 
-        
+        <section id="tech">
+            <h2><span class="step">3</span> Does the type of screen matter?</h2>
+            <p>It does, but how much depends on size. Hover over the bars to see the exact averages for the three screen technologies in each size group.</p>
+
+            <figure>
+                <img src="./assets/Bar Chart 1.3" alt="Bar chart of average energy used by screen tech (LCD, LCD (LED), OLED) within each size category".>
+                <figcaption><strong>Figure 5.</strong> Average labelled energy consumption (kWh/year) by screen technology within each size category.</figcaption>
+            </figure>
+
+            <table class="data">
+                <caption>Mean labelled energy consumption (kWh/year)</caption>
+                <thead><tr><th>Screen technology</th><th>Large</th><th>Medium</th><th>Small</th></tr></thead>
+                <tbody>
+                    <tr><td>LCD</td><td>659.6</td><td>357.5</td><td>122.7</td></tr>
+                    <tr><td>LCD (LED)</td><td>756.8</td><td>384.1</td><td>126.9</td></tr>
+                    <tr><td>OLED</td><td>716.2</td><td>390.7</td><td>233.3</td></tr>
+                </tbody>
+            </table>
+
+            <ul class="findings">
+                <li><strong>Large & medium TVs:</strong> the three technologies are fairly close (within roughly 100 kWh a year for large, 35 kWh for medium). Size dominates.</li>
+                <li><strong>Small TVs:</strong> OLED averages about <strong>233 kWh</strong> – nearly <strong>double</strong> the ≈ 123–127 kWh of LCD and LCD (LED). A small OLED is the one place where the technology choice clearly raises running cost.</li>
+                <li><strong>A caution about stars:</strong> the star rating compares a TV to others of <em>similar size</em>. A 5-star large TV can still use far more electricity than a 5-star small TV, so always check the <em>kWh/year</em> figure too.</li>
+            </ul>
+        </section>
+
+        <section id="advice" class="recommend">
+            <h2><span class="step">4</span> What should you do?</h2>
+            <ol>
+                <li><strong>Choose size first.</strong> It is the single biggest driver of running cost. Going from medium to large roughly doubles the energy; going from small to large multiplies it by about four to five.</li>
+                <li><strong>Compare kWh/year, not just stars.</strong> Stars only compare a TV with similar-sized models.</li>
+                <li><strong>Be careful with small OLEDs.</strong> If energy cost matters, an LCD or LCD (LED) at small sizes uses about half as much on average.</li>
+                <li><strong>Shop within a size.</strong> Models of the same size differ by hundreds of kWh a year (Figure 3) – pick the lowest in your size range.</li>
+            </ol>
+        </section>
+
+        <section id="storyboard">
+            <h2>Storyboard</h2>
+            <p>The plan behind this page: one sticky note per step of the story (adapted from the example in the Canvas guide).</p>
+            <div class="board">
+                <div class="note-card"><b>1 · Issue</b>Buying a TV? Bigger & fancier may mean a bigger power bill.</div>
+                <div class="note-card"><b>2 · Set the scene</b>Most TVs on sale are mid-to-large (histogram + brand pie).</div>
+                <div class="note-card"><b>3 · Demonstrate</b>Scatter plot: energy rises with screen size.</div>
+                <div class="note-card"><b>4 · Simplify</b>Small / medium / large averages – and the $ gap.</div>
+                <div class="note-card"><b>5 · Dig deeper</b>Screen technology by size: small OLED uses ~2× more.</div>
+                <div class="note-card"><b>6 · Recommend</b>Pick size first, compare kWh/year, watch small OLEDs.</div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About the data</h2>
+            <p><strong>Source:</strong> Australian TV energy-rating dataset provided for COS30045 (one row per TV model, with brand, regions sold in, availability, screen size, screen technology, star rating and labelled energy consumption in kWh/year).</p>
+            <p><strong>Data processing:</strong> KNIME Analytics Platform was used to clean, filter, group, and sumarize the given data (tv_2026_02_15.csv).</p>
+        </section>
+    </main>
+
 
         <h2 class="head2">Typical Power Use by Television Type</h2>
         <p class="small-text">The table below compares some common television types. Yearly use assumes 4 hours of viewing per day.</p>
