@@ -34,44 +34,112 @@
     </header>
 <!------------------------------------------------------------------------------------------------------------------->
     <main class="televisions-page">
+        <section class="callout">
+            <h2>Who is this for?</h2>
+            <p><strong>Audience:</strong> Australian households who are about to buy a new TV and want to keep their electricity bill under control – not engineers, just everyday shoppers who see a “stars” label in the shop and wonder what it really means.</p>
+            <p><strong>What they want to know:</strong> <em>“If I buy a bigger or fancier TV, how much more power will it use per year – and which type should I pick?”</em></p>
+            <div class="kpis">
+                <!-- 746 : 128 ≈ 5.8 -->
+                <div class="kpi"><span class="num">≈ 5.8×</span><span class="lbl">more energy a year: average large TV vs average small TV</span></div>
+                <div class="kpi"><span class="num">≈ 746</span><span class="lbl">kWh/year for an average large TV (over 66 inches)</span></div>
+                <div class="kpi"><span class="num">≈ 128</span><span class="lbl">kWh/year for an average small TV (under 43 inches)</span></div>
+            </div>
+        </section>
 
-        <h2 class="head2">Why Televisions Matter</h2>
-        <p class="sub-text">A single television uses less power than an air conditioner or a water heater, but it runs for 
-            long periods, often alongside a set top box, a games console or a sound bar. Over a full year, this adds up to 
-            a noticeable part of a household's electricity use.
-        </p>
+        <section id="framework">
+            <h2>Storytelling</h2>
+            <div class="five">
+                <div class="five-item">
+                    <h3><span class="step">1</span> Setting <small>Who is the reader, and what do they already know?</small></h3>
+                    <p><strong>Reader:</strong> an Australian household shopping for a new TV.</p>
+                    <p><strong>They already know:</strong> bigger TVs cost more to buy, and energy labels have stars.</p>
+                    <p><strong>They don’t know:</strong> what “kWh per year” means for their bill, or whether screen technology (LCD, LCD (LED), OLED) changes it.</p>
+                </div>
+                
+                <div class="five-item">
+                    <h3><span class="step">2</span> Conflict <small>What problem or surprise is in the TV data?</small></h3>
+                    <p>Most people assume that a good star rating means a low bill. The data says otherwise:</p>
+                    <ul>
+                        <li>Stars compare a TV only with TVs of <em>similar size</em>, so a 5-star large TV still uses far more power than a 5-star small one.</li>
+                        <li>Even at the same size, models differ by hundreds of kWh per year.</li>
+                        <li>Surprise: among small TVs, <strong>OLED uses almost double</strong> the energy of LCD.</li>
+                    </ul>
+                </div>
 
-        <div class="card-grid">
-            <article class="card-1">
-                <h3>Long viewing hours</h3>
-                <p><em>Televisions are often on for several hours every day, so even a modest wattage adds up over a full year.</em></p>
-            </article>
+                <div class="five-item">
+                    <h3><span class="step">3</span> Evidence <small>Which results show it?</small></h3>
+                    <div class="kpis small">      
+                        <div class="kpi"><span class="num">746 vs 128</span><span class="lbl">average kWh/year, large vs small TV (≈ 5.8×)</span></div>
+                        <div class="kpi"><span class="num">233 vs 123</span><span class="lbl">average kWh/year, small OLED vs small LCD (≈ 1.9×)</span></div>
+                        <div class="kpi"><span class="num">200 – 1,100</span><span class="lbl">kWh/year range among 65″ models</span></div>
+                     </div>
+                </div>
 
-            <article class="card-2">
-                <h3>Brightness</h3>
-                <p><em>Higher brightness levels consume more electricity. Display settings used in stores are usually brighter than what is necessary for a comfortable home environment.</em></p>
-            </article>
+                <div class="five-item">
+                    <h3><span class="step">4</span> Chart <small>Which chart shows it best?</small></h3>
+                    <p>A <strong>grouped bar chart</strong>: size groups along the bottom, one bar per screen technology, height = average kWh/year. Grouping lets the reader compare technologies <em>within</em> a size (fair) while still seeing that size drives the overall level. The small-OLED bar stands out. Bars start at zero so the difference isn’t exaggerated.</p>
+                    <img src="./assets/Bar Chart 1.1" alt="Group bar chart showing average kWh/year by screen size and technology">
+                </div>
 
-            <article class="card-3">
-                <h3>Screen size</h3>
-                <p><em>Screen sizes keep growing, and a larger panel generally draws more power than a smaller one.</em></p>
-            </article>
+                <div class="five-item">
+                    <h3><span class="step">5</span> Resolution <small>What should the reader do or believe at the end?</small></h3>
+                    <p><strong>Believe:</strong> size is the biggest driver of running cost, and stars alone don’t tell you the bill.</p>
+                    <p><strong>Do:</strong> pick the size you really need, compare the <em>kWh/year</em> number between models, and think twice about a small OLED if energy cost matters.</p>
+                </div>
+            </div>
+        </section>
 
-            <article class="card-4">
-                <h3>Extra devices</h3>
-                <p><em>Set top boxes, games consoles and sound bars are often left running alongside the television.</em></p>
-            </article>
+        <section id="market">
+            <h2><span class="step">1</span> Market Overview</h2>
+            <p> The data covers about <strong>4,500 TV models from 75 brands</strong> sold in Australia. Most of them are not small: models cluster between roughly <strong>110 and 190 cm</strong> (about 43″ – 75″), with the tallest peaks at around <strong>135 cm</strong> and <strong>160 cm</strong> (≈ 53″ and 63″). In other words, the “normal” TV is already a mid-to-large one.</p>
 
-            <article class="card-5">
-                <h3>Panel technology</h3>
-                <p><em>LED, OLED, and LCD(LED) displays can have different energy consumption patterns, even when they are the same size.</em></p>
-            </article>
+            <figure>
+                <img src="./assets/Histogram.png" alt="Histogram of TV screen sizes in cm with 20 bins; peaks near 135 cm and 160 cm">
+                <figcaption><strong>Figure 1.</strong> How many models exist for each screen size (cm, 20 equal-width bins). Source: KNIME Histogram node.</figcaption>
+            </figure>
 
-            <article class="card-6">
-                <h3>Buying decisions</h3>
-                <p><em>Comparing star ratings before you buy can lower running costs for the whole life of the television.</em></p>
-            </article>
-        </div>
+            <p class="takeaway">Takeaway: because most TVs on sale are mid-to-large, the choice of size has a big effect on your bill – so it matters.</p>
+
+            <figure class="narrow">
+                <img src="./assets/Pie Chart.png" alt="Pie chart of number of TV models per brand: Samsung, Kogan, LG, Hisense, Eko and Other">
+                <figcaption><strong>Figure 2.</strong> Share of models by brand. Samsung (about 1,100 models), Kogan (≈ 790) and LG (≈ 680) account for roughly half of all models, so the brand mix is dominated by a few names.</figcaption>
+            </figure>
+        </section>
+
+        <section id="size">
+            <h2><span class="step">2</span> Does a bigger screen use more power?</h2>
+            <p>Yes – and the pattern is very clear. Each dot below is one TV model. As screen size grows, the energy a TV uses per year climbs steadily: tiny 16″–32″ models sit well under 200 kWh, while 85″–100″ models regularly pass 1,000 kWh.</p>
+
+            <figure>
+                <img src="./assets/Scatter Plot.png" alt="Scatter plot of screen size in inches against labelled energy consumption in kWh per year, rising trend">
+                <figcaption><strong>Figure 3.</strong> Screen size (inches) vs labelled energy consumption (kWh/year). One dot = one model. Screen size was converted from cm to inches (× 0.393701) and rounded.</figcaption>
+            </figure>
+
+            <p>Look at a single column of dots, such as 65″: models of the same size still range from about 200 to over 1,100 kWh/year. <strong>Size isn’t the whole story</strong> – something else (technology, brightness, efficiency) matters too. We come back to that in Part 3.</p>
+
+            <h3>Small, medium, large – the simple version</h3>
+            <p>Grouping TVs into <strong>small (under 43″)</strong>, <strong>medium (44″–65″)</strong> and <strong>large (over 66″)</strong> makes the gap easy to see: the average large TV uses almost <strong>twice</strong> the energy of a medium one and about <strong>4–5 times</strong> that of a small one.</p>
+
+            <figure>
+                <img src="./assets/Bar Chart 1.2" alt="Bar chart of average energy consumption: large about 745, medium about 403, small about 158 kWh per year">
+                <figcaption><strong>Figure 4.</strong> Average labelled energy consumption (kWh/year) by size category – large ≈ 745, medium ≈ 403, small ≈ 158 (values read from the KNIME chart; y-axis label “None” is KNIME’s default for the mean of Labelled energy consumption).</figcaption>
+            </figure>
+
+            <div class="cost">
+                <h4>What does that mean in dollars? <span>(illustrative)</span></h4>
+                <table>
+                    <thead><tr><th>Size</th><th>Avg kWh / year</th><th>≈ cost / year at 30 c per kWh*</th></tr></thead>
+                    <tbody>
+                        <tr><td>Small (&lt; 43″)</td><td>≈ 158</td><td>≈ $47</td></tr>
+                        <tr><td>Medium (44″–65″)</td><td>≈ 403</td><td>≈ $121</td></tr>
+                        <tr><td>Large (&gt; 66″)</td><td>≈ 745</td><td>≈ $224</td></tr>
+                        </tbody>
+                </table>
+                <p class="note">*30 c/kWh is an assumed round-number tariff chosen only to illustrate the gap; it is not part of the dataset. Check your own bill for your rate.</p>
+            </div>
+        </section>"
+
+        
 
         <h2 class="head2">Typical Power Use by Television Type</h2>
         <p class="small-text">The table below compares some common television types. Yearly use assumes 4 hours of viewing per day.</p>
@@ -91,28 +159,28 @@
                 <tbody>
                     <tr>
                         <td>LCD (LED)</td>
-                        <td>58 inch</td>
+                        <td>58 inches</td>
                         <td>50</td>
                         <td>322.0</td>
                     </tr>
 
                     <tr>
                         <td>LCD (LED)</td>
-                        <td>55 inch</td>
+                        <td>55 inches</td>
                         <td>80</td>
                         <td>116.8</td>
                     </tr>
 
                     <tr>
                         <td>OLED</td>
-                        <td>55 inch</td>
+                        <td>55 inches</td>
                         <td>100</td>
                         <td>146.0</td>
                     </tr>
 
                     <tr>
                         <td>OLED</td>
-                        <td>65 inch</td>
+                        <td>65 inches</td>
                         <td>120</td>
                         <td>175.2</td>
                     </tr>
