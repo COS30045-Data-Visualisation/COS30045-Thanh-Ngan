@@ -154,7 +154,7 @@ html {
 .hero-links a {
   color: var(--dark-coffee);
   text-decoration: none;
-  background: rgba(255, 255, 255, 0.35);
+  background: var(--amber);
   padding: 0.4rem 0.9rem;
   border-radius: 999px;
   font-size: 0.95rem;
@@ -162,7 +162,7 @@ html {
 }
 
 .hero-links a:hover {
-  background: rgba(255, 255, 255, 0.65);
+  background: var(--navajo-white)
 }
 
 /* ----------------------------------------------------------------------------------- */

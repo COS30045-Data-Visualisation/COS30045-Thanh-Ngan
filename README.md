@@ -1,14 +1,12 @@
-# COS30045- Thanh Ngan
-# Exercise 3 – Communicating Data Insights (COS30045)
+<!-- 
+Student Name: Tống Mỹ Thanh Ngân
+Student ID: 106216298
+Unit: COS30045 
+Lecturer: Mr. Nghia Quach
+Story title: Big screen, big bill? – how TV screen size and screen technology affect energy use in Australia.
+ -->
 
-**Student:** Tống Mỹ Thanh Ngân · **ID:** 106216298 · **Lecturer:** Mr. Nghia Quach
-
-**Website:** open `index.html` (or the GitHub Pages URL for this repository).
-**Story title:** *Big screen, big bill? – how TV screen size and screen technology affect energy use in Australia.*
-
----
-
-## Data Story
+---------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Audience
 Australian households who are about to buy a new TV. They are everyday shoppers, not technical experts. They see a star-rating label in the shop and want to keep their electricity bill under control.
@@ -92,4 +90,3 @@ I used the AI assistant **Claude (Anthropic)** to help with this exercise. Speci
 - To draft the website text (`index.html`), CSS styling and the README structure.
 - To help write the Chart.js code for the grouped bar chart.
 
-The KNIME workflows, data processing and charts were produced by me in Exercises 1 and 2. I checked the numbers in the story against my KNIME outputs, and I take responsibility for the final content. Chart.js (MIT licence) is included locally in `js/chart.umd.js`.
