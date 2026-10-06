@@ -55,28 +55,20 @@
     + OLED 716.2 / 390.7 / 233.3.
 - Small OLED TVs use almost twice the energy of small LCD TVs. Furthermore, for medium and large TVs, technology matters much less than size.
 
----------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
 
 # About the data
 
 # Data source
-Australian TV energy-rating dataset supplied for COS30045 Exercises 1–3 (one row per TV model: brand, regions sold in, availability status, screen size in cm, screen technology, star rating and labelled energy consumption in kWh/year). *(Add the exact name, publisher, URL, licence and date of the file you downloaded from Canvas / data.gov.au here.)*
+A data set published by the Australian Government, containing information about the energy consumption of appliances sold in Australia, will be used for Exercise 1-3. The version of the data set is "tv_2026_02_15.csv".
 
 # Data processing
-All processing was done in KNIME:
-- **Column Filter** – kept only the columns needed for each question.
-- **String Cleaner / String Replacer** – fixed inconsistent capitalisation and merged brand-name variants ("samsung electronics" → "samsung", "q.bell" → "qbell").
-- **Nominal Value Row Filter** – removed unavailable models and models not sold in Australia.
-- **GroupBy / Sorter** – counted models per brand (75 brands; largest = Samsung with 1,096 models).
-- **Expression + Number Rounder** – converted screen size from cm to inches (× 0.393701) and rounded to whole inches.
-- **Expression** – created size categories: small (< 43″), medium (44″–65″), large (> 66″).
-- **Pivot + GroupBy** – mean energy consumption by screen technology within each size category.
-- **Histogram, Scatter Plot, Bar Chart, Pie Chart** – charts; screenshots were cropped to remove KNIME interface elements. The grouped bar chart on the website is redrawn with Chart.js using the exact table values from KNIME.
+All processing was done in KNIME Platform.
 
-### Privacy
+# Privacy
 The data describes products (TV models), not people. It contains no personal or sensitive information.
 
-### Accuracy and limitations
+# Accuracy and limitations
 - Energy values are **labelled** (test-based) consumption in kWh/year, not measured use in a real home; actual use depends on viewing hours, brightness settings and standby.
 - Size category averages in Figure 4 (≈ 745 / 403 / 158 kWh) were read from the KNIME chart and are approximate; the technology averages in Figure 5 are the exact values from the KNIME table.
 - The category boundaries leave small gaps (43″–44″ and 65″–66″), so a few sizes may fall outside the three groups, depending on rounding.
@@ -87,7 +79,7 @@ The data describes products (TV models), not people. It contains no personal or 
 ### Ethics
 No personal data is used. Brand names are shown only to describe the market; no claim is made that one brand is better or worse. The advice is general and is based on averages, so individual models can differ – readers are encouraged to check the kWh/year label of the specific TV they are considering. Visuals use zero-based axes and avoid truncation to prevent misleading comparisons.
 
----
+-------------------------------------------------------------------------------------------------------------------------
 
 ## AI Declaration
 
