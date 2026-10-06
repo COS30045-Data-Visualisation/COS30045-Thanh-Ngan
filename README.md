@@ -88,5 +88,5 @@ No personal data is used. Brand names are shown only to describe the market; no 
 I used the AI assistant **Claude (Anthropic)** to help with this exercise. Specifically:
 - To suggest an audience, storyboard and story structure based on my KNIME results from Exercises 1 and 2.
 - To draft the website text (`index.html`), CSS styling and the README structure.
-- To help write the Chart.js code for the grouped bar chart.
+- To help write the script.js code for the Interactive Appliance Energy Calculator.
 
