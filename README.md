@@ -50,9 +50,9 @@
     + Medium ≈ 382 kWh/year.
     + Small ≈ 128 kWh/year.
 - Mean kWh/year by technology (large / medium / small): 
-    + LCD 659.6 / 357.5 / 122.7 
-    + LCD(LED) 756.8 / 384.1 / 126.9
-    + OLED 716.2 / 390.7 / 233.3.
+    + LCD: 659.6 / 357.5 / 122.7 
+    + LCD(LED): 756.8 / 384.1 / 126.9
+    + OLED: 716.2 / 390.7 / 233.3.
 - Small OLED TVs use almost twice the energy of small LCD TVs. Furthermore, for medium and large TVs, technology matters much less than size.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
