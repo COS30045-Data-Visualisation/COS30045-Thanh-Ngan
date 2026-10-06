@@ -46,7 +46,7 @@
 
 .logo_link .name {
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
 }
 
 nav ul {
@@ -132,14 +132,14 @@ html {
 }
 
 .hero-header h1 {
-  font-size: clamp(2rem, 6vw, 3.2rem);
+  font-size: clamp(2.25rem, 5vw, 3.5rem);
   margin: 0.2em 0 0.3em;
   line-height: 1.1;
   color: var(--dark-coffee);
 }
 
 .hero-header .lead {
-  font-size: 1.15rem;
+  font-size: 1.125rem;
   max-width: 60rem;
   margin: 0 0 1.5rem;
   line-height: 1.6;
@@ -173,7 +173,8 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     max-width: 65rem;
     margin: 0 auto;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    line-height: 1.6;
 }
 
 /* Color for main content in Home Page */
@@ -218,7 +219,7 @@ body {
   padding: 0.6rem;
   border: 1px solid var(--border);
   border-radius: 6px;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-family: inherit;
 }
 
@@ -243,7 +244,7 @@ body {
   border-radius: 999px;
   font-weight: bold;
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .calc-result {
@@ -262,7 +263,7 @@ body {
 
 .result-cost strong {
   color: var(--accent);
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 .result-note {
@@ -285,7 +286,7 @@ body {
 }
 
 .faq-question {
-    font-size: 1.3rem;
+    font-size: 1.05rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -337,7 +338,7 @@ main > .head2 {
   background: var(--cream);
   box-shadow: inset 5px 0 0 var(--amber-dark);
   color: var(--dark-brown);
-  font-size: 1.55rem;
+  font-size: 1.45rem;
   line-height: 1.35;
 }
 
@@ -345,7 +346,7 @@ main > .sub-text,
 main > .small-text {
   max-width: 65rem;
   margin: 0 0 1.25rem;
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.65;
 }
 
@@ -359,22 +360,22 @@ main > .small-text {
   background: var(--cream);
   box-shadow: inset 5px 0 0 var(--amber-dark);
   color: var(--dark-brown);
-  font-size: 1.55rem;
+  font-size: 1.45rem;
   line-height: 1.35;
 }
 
 .about-page > .sub-text {
   max-width: 65rem;
   margin: 0 0 1.25rem;
-  font-size: 1.3rem;
+  font-size: 1rem;
   line-height: 1.65;
 }
 
 .about-page > ul {
   margin: 0 0 1.25rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding-left: 1.5rem;
-  line-height: 1.75;
+  line-height: 1.6;
 }
 
 .about-page > ul li::marker {
@@ -397,13 +398,13 @@ main > .small-text {
   background: var(--cream);
   box-shadow: inset 5px 0 0 var(--amber-dark);
   color: var(--dark-brown);
-  font-size: 1.55rem;
+  font-size: 1.45rem;
   line-height: 1.35;
 }
 
 .callout p {
   margin: 0 1.5rem 1rem;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   line-height: 1.65;
 }
  
@@ -429,7 +430,7 @@ main > .small-text {
 .kpi .num {
   display: block;
   margin-bottom: 0.4rem;
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: 700;
   line-height: 1.1;
   color: var(--brown);
@@ -456,13 +457,13 @@ main > .small-text {
   background: var(--cream);
   box-shadow: inset 5px 0 0 var(--amber-dark);
   color: var(--dark-brown);
-  font-size: 1.55rem;
+  font-size: 1.45rem;
   line-height: 1.35;
 }
  
 #framework > p {
   margin: 0 0 1.25rem;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   line-height: 1.65;
 }
  
@@ -482,7 +483,7 @@ main > .small-text {
 .five-item h3 {
   margin: 0 0 0.75rem;
   color: var(--dark-brown);
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   line-height: 1.35;
 }
  
@@ -502,17 +503,18 @@ main > .small-text {
 .five-item h3 small {
   display: block;
   margin: 0.15rem 0 0 2.4rem;
-  font-size: 0.95rem;
+  font-size: 0.875rem;
   font-weight: 400;
   color: var(--brown);
 }
  
 .five-item li {
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.65;
 }
  
 .five-item p {
+  font-size: 1.05rem;
   margin: 0 0 0.6rem;
 }
  
@@ -538,7 +540,7 @@ main > .small-text {
 }
  
 .kpis.small .num {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
  
 .five-item img {
@@ -557,21 +559,21 @@ main > .small-text {
 #size > h2 {
   margin: 0 0 1rem;
   color: var(--dark-brown);
-  font-size: 1.9rem;
-  line-height: 1.25;
+  font-size: 1.65rem;
+  line-height: 1.3;
 }
 
 #market > p,
 #size > p {
   margin: 0 0 1.25rem;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   line-height: 1.65;
 }
 
 #size > h3 {
   margin: 2rem 0 0.5rem;
   color: var(--dark-brown);
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   line-height: 1.35;
 }
 
@@ -592,7 +594,7 @@ figure.narrow {
 
 figcaption {
   margin-top: 0.75rem;
-  font-size: 0.95rem;
+  font-size: 0.875rem;
   line-height: 1.55;
   color: var(--brown);
 }
@@ -616,19 +618,19 @@ figcaption strong {
 .cost h4 {
   margin: 0 0 0.75rem;
   color: var(--dark-brown);
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   line-height: 1.35;
 }
 
 .cost h4 span {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 400;
   color: var(--brown);
 }
 
 .televisions-page .cost table {
   min-width: 28rem;
-  font-size: 1.05rem;
+  font-size: 0.95rem;
 }
 
 .televisions-page .cost th,
@@ -642,6 +644,55 @@ figcaption strong {
   line-height: 1.5;
   color: var(--brown);
 }
+
+.findings li {
+  font-size: 1.05rem;
+  margin-bottom:15px
+}
+
+.recommend {
+  padding: 1.25rem 1.5rem;
+  background:var(--surface);
+  border:1px solid var(--camel);
+  border-top: 4px solid var(--amber-dark);
+  border-radius:4px;
+}
+
+.recommend li {
+  font-size: 1.05rem;
+  margin-bottom:15px
+}
+
+#storyboard > h2 {
+  text-align: center;
+}
+
+.board {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:16px
+}
+
+.note-card {
+  background:var(--surface);
+  border:1px solid var(--camel);
+  padding:18px;
+  border-radius:4px;
+  font-size:1rem;
+  box-shadow:2px 3px 0 rgba(0,0,0,.08);
+  transform:rotate(-.6deg)
+}
+.note-card:nth-child(even) {transform:rotate(.7deg)}
+.note-card b {
+  display:block;
+  margin-bottom:4px
+}
+
+#about > h2 {
+  text-align: center;
+}
+
+
 
 /* ----------------------------------------------------------------------------------- */
 .card-grid {
@@ -662,13 +713,13 @@ figcaption strong {
 .card-grid h3 {
   margin: 0 0 0.65rem;
   color: var(--dark-brown);
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   line-height: 1.35;
 }
 
 .card-grid p {
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.6;
 }
 
@@ -682,7 +733,7 @@ figcaption strong {
   min-width: 40rem;
   border-collapse: collapse;
   background: var(--surface);
-  font-size: 1.35rem;
+  font-size: 1rem;
 }
 
 .televisions-page th,
