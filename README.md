@@ -76,17 +76,35 @@ The data describes products (TV models), not people. It contains no personal or 
 - The dollar figures on the website assume 30 c/kWh purely for illustration; this is not from the dataset.
 - Model counts per brand show how many models exist, not how many TVs were sold or market share.
 
-### Ethics
+# Ethics
 No personal data is used. Brand names are shown only to describe the market; no claim is made that one brand is better or worse. The advice is general and is based on averages, so individual models can differ – readers are encouraged to check the kWh/year label of the specific TV they are considering. Visuals use zero-based axes and avoid truncation to prevent misleading comparisons.
 
 -------------------------------------------------------------------------------------------------------------------------
 
-## AI Declaration
+# GenAI Declaration
 
-> **Please review and edit this section so it matches exactly how you used AI.**
+# Tools used
+- **Claude (Anthropic)**: chat assistant. I used Claude for:
+   + Developing the website: the HTML structure and CSS styling of the Home, Televisions, and About page (including header,body,footer), following my own design colours and layout which I listed out  before proceeding with the work.
+   + Drafting the website text (`index.html`), and the README structure.
+   + Supporting me complete Javascript code for the Interactive Appliance Energy Calculator in the Home Page.
+   + Suggesting the background and story structure for Exercise 3, based on my KNIME results from Exercises 1 and 2.
+   + Helping me prepare for the Demonstration 1 checklist.
 
-I used the AI assistant **Claude (Anthropic)** to help with this exercise. Specifically:
-- To suggest an audience, storyboard and story structure based on my KNIME results from Exercises 1 and 2.
-- To draft the website text (`index.html`), CSS styling and the README structure.
-- To help write the script.js code for the Interactive Appliance Energy Calculator.
+- **GitHub Copilot in VS Code**: code assistant. I used it for debugging the code, for example finding syntax errors and fixing layout and styling bugs in HTML, CSS and JavaScript.
+
+# Example prompts
+- "Using the files I attached, restyle the section I sent so that it follows the general design defaults I have already used across my website."
+- "I changed some parts of televisions.html. Please restyle the new content so it stays consistent with the rest of the page."
+- "I added a CSV Writer node and chose a file location, but the dialog shows the 'Local file system' tab. What should I choose so the output file is saved in the workflow's data folder and included when I export the .knwf?"
+- "Help me complete the COS30045 Demonstration 1 checklist using my data file, and check my row counts, brand counts and data types."
+
+# What I checked myself
+- I created all KNIME workflows, data processing and charts myself in both Exercises 1 and 2, and ran them from start to finish without errors about the data set.
+- I compared every number on the website with my KNIME outputs. Where a value was read from a chart instead of a table, I asked where it came from and replaced it or marked it as approximate.
+- I confirmed the row counts: 4,724 raw rows, 4,710 after the Available filter and 4,508 after the SoldIn filter.
+- I opened the website in a browser, checked that images load, that the Home, Televisions and About us pages work and that my name is in every footer.
+- I read through the AI-generated text and code, edited it where it was unclear or uncorrect.  I can explain each chart, node by my own way of understanding. 
+
+
 
