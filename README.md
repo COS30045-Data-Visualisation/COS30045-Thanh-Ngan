@@ -19,7 +19,7 @@
 3. Does the panel technology (LCD, LCD (LED), OLED) change the running cost?
 4. What should I do when I choose?
 
-# Story in five parts (also shown on the website)
+# Story in five parts
 1. **Setting**: An Australian household is shopping for a new TV. They assume that bigger TVs must cost more and notice that each product has a star rating. However, they do not understand what kWh/year means for their electricity bill or whether screen technology affects their energy consumption.
 2. **Conflict**: A high or good star rating does not necessarily mean a lower electricity bill because star ratings only compare TVs of a similar size. Models of the same size can still differ by hundreds of kWh/year. For example, small OLED TVs can use almost twice as much energy as small LCD TVs.
 3. **Evidence**: 
@@ -36,7 +36,7 @@
 | # | Step | Visual |
 |---|------|--------|
 | 1 | **Issue** – a bigger TV may mean a bigger power bill | Headline + key numbers |
-| 2 | **Set the scene** – most TVs for sale are mid-to-large | Histogram of screen sizes; brand pie chart |
+| 2 | **Set the scene** – most TVs for sale are range from middle to large size | Histogram of screen sizes; brand pie chart |
 | 3 | **Demonstrate** – energy rises with screen size | Scatter plot (inches vs kWh/year) |
 | 4 | **Simplify** – small / medium / large averages and the dollar gap | Bar chart + cost table |
 | 5 | **Dig deeper** – technology matters most for small TVs (OLED ≈ 2× LCD) | Grouped bar chart + table |
@@ -70,8 +70,8 @@ The data describes products (TV models), not people. It contains no personal or 
 
 # Accuracy and limitations
 - Energy values are **labelled** (test-based) consumption in kWh/year, not measured use in a real home; actual use depends on viewing hours, brightness settings and standby.
-- Size category averages in Figure 4 (≈ 745 / 403 / 158 kWh) were read from the KNIME chart and are approximate; the technology averages in Figure 5 are the exact values from the KNIME table.
-- The category boundaries leave small gaps (43″–44″ and 65″–66″), so a few sizes may fall outside the three groups, depending on rounding.
+- Size category averages in Figure 4 (≈ 746 / 382 / 128 kWh) were read from the KNIME chart and are approximate; the technology averages in Figure 5 are the exact values from the KNIME table.
+- The category boundaries leave small gaps (43″– 44″ and 65″– 66″), so a few sizes may fall outside the three groups, depending on rounding.
 - Means can be pulled up by extreme models (e.g. one ~114″ model at about 2,650 kWh/year), and the number of models in each group differs, so a model count does not equal units sold.
 - The dollar figures on the website assume 30 c/kWh purely for illustration; this is not from the dataset.
 - Model counts per brand show how many models exist, not how many TVs were sold or market share.
