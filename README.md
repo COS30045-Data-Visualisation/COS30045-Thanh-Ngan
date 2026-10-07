@@ -56,7 +56,6 @@
 - Small OLED TVs use almost twice the energy of small LCD TVs. Furthermore, for medium and large TVs, technology matters much less than size.
 
 -------------------------------------------------------------------------------------------------------------------------
-
 # About the data
 
 # Data source
