@@ -80,7 +80,7 @@ No personal data is used. Brand names are shown only to describe the market; no 
 # Tools used
 - **Claude (Anthropic)**: chat assistant. I used Claude for:
    + Developing the website: the HTML structure and CSS styling of the Home, Televisions, and About page (including header,body,footer), following my own design colours and layout which I listed out  before proceeding with the work.
-   + Drafting the website text (`index.html`), and the README structure.
+   + Drafting the text (`index.html`), and the README structure.
    + Supporting me complete Javascript code for the Interactive Appliance Energy Calculator in the Home Page.
    + Suggesting the background and story structure for Exercise 3, based on my KNIME results from Exercises 1 and 2.
    + Helping me prepare for the Demonstration 1 checklist.
