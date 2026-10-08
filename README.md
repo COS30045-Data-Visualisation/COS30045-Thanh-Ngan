@@ -55,9 +55,7 @@
     + OLED 716.2 / 390.7 / 233.3
 - Small OLED TVs use almost twice the energy of small LCD TVs. Furthermore, for medium and large TVs, technology matters much less than size.
 
--------------------------------------------------------------------------------------------------------------------------
 # About the data
-
 # Data source
 A data set published by the Australian Government, containing information about the energy consumption of appliances sold in Australia, will be used for Exercise 1-3. The version of the data set is "tv_2026_02_15.csv".
 
@@ -68,8 +66,8 @@ All processing was done in KNIME Platform.
 The data describes products (TV models), not people. It contains no personal or sensitive information.
 
 # Accuracy and limitations
-- Energy values are **labelled** (test-based) consumption in kWh/year, not measured use in a real home; actual use depends on viewing hours, brightness settings and standby.
-- Size category averages in Figure 4 (≈ 746 / 382 / 128 kWh) were read from the KNIME chart and are approximate; the technology averages in Figure 5 are the exact values from the KNIME table.
+- Energy values are consumption in kWh/year, not measured use in a real home; actual use depends on viewing hours, brightness settings and standby.
+- Size category averages in Figure 4 (≈ 746 / 382 / 128 kWh) were read approximately from the KNIME chart; the technology averages in Figure 5 are the exact values from the KNIME table.
 - The category boundaries leave small gaps (43″– 44″ and 65″– 66″), so a few sizes may fall outside the three groups, depending on rounding.
 - Means can be pulled up by extreme models (e.g. one ~114″ model at about 2,650 kWh/year), and the number of models in each group differs, so a model count does not equal units sold.
 - The dollar figures on the website assume 30 c/kWh purely for illustration; this is not from the dataset.
@@ -78,10 +76,7 @@ The data describes products (TV models), not people. It contains no personal or 
 # Ethics
 No personal data is used. Brand names are shown only to describe the market; no claim is made that one brand is better or worse. The advice is general and is based on averages, so individual models can differ – readers are encouraged to check the kWh/year label of the specific TV they are considering. Visuals use zero-based axes and avoid truncation to prevent misleading comparisons.
 
--------------------------------------------------------------------------------------------------------------------------
-
 # GenAI Declaration
-
 # Tools used
 - **Claude (Anthropic)**: chat assistant. I used Claude for:
    + Developing the website: the HTML structure and CSS styling of the Home, Televisions, and About page (including header,body,footer), following my own design colours and layout which I listed out  before proceeding with the work.
@@ -93,7 +88,7 @@ No personal data is used. Brand names are shown only to describe the market; no 
 - **GitHub Copilot in VS Code**: code assistant. I used it for debugging the code, for example finding syntax errors and fixing layout and styling bugs in HTML, CSS and JavaScript.
 
 # Example prompts
-- "Using the files I attached, restyle the section I sent so that it follows the general design defaults I have already used across my website."
+- "Help me restyle the section I sent so that it follows the general design defaults I have already used across my website."
 - "I changed some parts of televisions.html. Please restyle the new content so it stays consistent with the rest of the page."
 - "I added a CSV Writer node and chose a file location, but the dialog shows the 'Local file system' tab. What should I choose so the output file is saved in the workflow's data folder and included when I export the .knwf?"
 - "Help me complete the COS30045 Demonstration 1 checklist using my data file, and check my row counts, brand counts and data types."
