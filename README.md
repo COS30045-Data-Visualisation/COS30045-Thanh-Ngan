@@ -70,7 +70,7 @@ The data describes products (TV models), not people. It contains no personal or 
 - Size category averages in Figure 4 (≈ 746 / 382 / 128 kWh) were read approximately from the KNIME chart; the technology averages in Figure 5 are the exact values from the KNIME table.
 - The category boundaries leave small gaps (43″– 44″ and 65″– 66″), so a few sizes may fall outside the three groups, depending on rounding.
 - Means can be pulled up by extreme models (e.g. one ~114″ model at about 2,650 kWh/year), and the number of models in each group differs, so a model count does not equal units sold.
-- The dollar figures on the website assume 30 c/kWh purely for illustration; this is not from the dataset.
+- The dollar figures on the website assume 30c/kWh purely for illustration; this is not from the dataset.
 - Model counts per brand show how many models exist, not how many TVs were sold or market share.
 
 # Ethics
